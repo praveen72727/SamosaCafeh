@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -12,9 +14,9 @@
     background-color: #000000;
 }
 
-h1,h2,h3,h4,h5,h6,span,div,p,ol,ul{
-    margin:0;
-    padding:0;
+h1,h2,h3,h4,h5,h6,span,div,p,ol,ul,li{
+    margin:0 ;
+    padding:0 ;
 }
 
 .ribbon-section{
@@ -26,6 +28,43 @@ h1,h2,h3,h4,h5,h6,span,div,p,ol,ul{
     height:550px !important;
 }
 
+.slider-div{
+    height:100vh;
+}
+
+.nav-div{
+    position: relative;
+    z-index:5;
+}
+
+
+
+
+
+.our-popular-food-items-div .each-div{
+    background-color: #faf7f2;
+}
+
+
+.span1{
+    font-weight:600;
+}
+
+
+/* .each-div .img-div img{
+    border:1px solid black;
+    border-radius: 100%;
+    background-color: black;
+} */
+
+
+
+
+
+.best-food-menu-heading{
+    font-family: 'Lobster Two', cursive;
+    font-weight:900;
+}
 
 
 
@@ -33,6 +72,384 @@ h1,h2,h3,h4,h5,h6,span,div,p,ol,ul{
 
 
 
+
+
+
+
+
+
+
+/* text colors */
+
+.text-black{
+    color:#000000;
+}
+
+.text-dark-grey{
+    color:#1c2125;
+}
+
+.text-tomato-red{
+    color:#eb0029;
+}
+
+.text-samosa-yellow{
+    color:#FFC107;
+}
+
+.text-white{
+    color:#ffffff;
+}
+
+/* background colors */
+
+.bg-black{
+    background-color:#000000;
+}
+
+.bg-dark-grey{
+    background-color:#1c2125;
+}
+
+.bg-tomato-red{
+    background-color:#eb0029;
+}
+
+.bg-samosa-yellow{
+    background-color:#FFC107;
+}
+
+.bg-white{
+    background-color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rotate-food-item-img {
+    position: relative;
+    width: 200px; /* Adjust the width as per your image size */
+    height: 200px; /* Adjust the height as per your image size */
+    animation: rotate 30s infinite linear; /* Adjust the animation duration as per your preference */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
+
+
+
+
+/* lazy loading start */
+
+.hidden{
+    opacity:0;
+    /* filter:blur(5px); */
+    transform:translateX(100%);
+    transition:all 1s;
+}
+.show{
+    opacity:1;
+    filter:blur(0);
+    transform:translateX(0);
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+/* lazy loading end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------font-size---------------------------- */
+.font-6{
+    font-size:6px;
+}
+.font-7{
+    font-size:7px;
+}
+.font-8{
+    font-size:8px;
+}
+.font-9{
+    font-size:9px;
+}
+.font-10{
+    font-size:10px;
+}
+.font-11{
+    font-size:11px;
+}
+.font-12{
+    font-size:12px;
+}
+.font-13{
+    font-size:13px;
+}
+.font-14{
+    font-size:14px;
+}
+.font-15{
+    font-size:15px;
+}
+.font-16{
+    font-size:16px;
+}
+.font-17{
+    font-size:17px;
+}
+.font-18{
+    font-size:18px;
+}
+.font-19{
+    font-size:19px;
+}
+.font-20{
+    font-size:20px;
+}
+.font-21{
+    font-size:21px;
+}
+.font-22{
+    font-size:22px;
+}
+.font-23{
+    font-size:23px;
+}
+.font-24{
+    font-size:24px;
+}
+.font-25{
+    font-size:25px;
+}
+.font-26{
+    font-size:26px;
+}
+.font-27{
+    font-size:27px;
+}
+.font-28{
+    font-size:28px;
+}
+.font-29{
+    font-size:29px;
+}
+.font-30{
+    font-size:30px;
+}
+.font-31{
+    font-size:31px;
+}
+.font-32{
+    font-size:32px;
+}
+.font-33{
+    font-size:33px;
+}
+.font-34{
+    font-size:34px;
+}
+.font-35{
+    font-size:35px;
+}
+.font-36{
+    font-size:36px;
+}
+.font-37{
+    font-size:37px;
+}
+.font-38{
+    font-size:38px;
+}
+.font-39{
+    font-size:39px;
+}
+.font-40{
+    font-size:40px;
+}
 
 
 
