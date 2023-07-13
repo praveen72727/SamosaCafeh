@@ -24,13 +24,13 @@ h1,h2,h3,h4,h5,h6,span,div,p,ol,ul,li{
     font-size:12px;
 }
 
-.carousel-inner{
+/* .carousel-inner{
     height:550px !important;
-}
+} */
 
-.slider-div{
+/* .slider-div{
     height:100vh;
-}
+} */
 
 .nav-div{
     position: relative;
@@ -43,6 +43,10 @@ h1,h2,h3,h4,h5,h6,span,div,p,ol,ul,li{
 
 .our-popular-food-items-div .each-div{
     background-color: #faf7f2;
+}
+
+.our-popular-food-items-div .each-div:hover{
+    outline:1px solid #eb0029;
 }
 
 
@@ -58,6 +62,32 @@ h1,h2,h3,h4,h5,h6,span,div,p,ol,ul,li{
 } */
 
 
+.contactIconsBg{
+    background-color: #eb0029;
+    padding:10px 11px;
+}
+
+.contactTtitlesAfterBrand{
+    flex-grow:1;
+}
+
+.contactTtitlesAfter::after{
+    content:'';
+    display: block;
+    width:40%;
+    height:3px;
+    margin-top:15px;
+    background: linear-gradient(to right, #eb0029 , #000000);
+}
+
+.contactSocialIconsBg{
+    background-color: #1C2125;
+    padding:10px 12px;
+}
+
+.contactSocialIconsBg:hover{
+    background-color: #eb0029;
+}
 
 
 
@@ -67,14 +97,32 @@ h1,h2,h3,h4,h5,h6,span,div,p,ol,ul,li{
 }
 
 
+.font-family-lobster{
+    font-family: 'Lobster Two', cursive;
+}
 
+.text-bold{
+    font-weight:bold;
+}
 
+.quick-links-div a{
+    text-decoration: none;
+    color:#ffffff;
+}
 
+.navLinksAfter::after{
+    content:'';
+    display: block;
+    width:0;
+    height:5px;
+    /* background: linear-gradient(to right, #eb0029 , #000000); */
+    background-color: #eb0029;
+    transition:width 1s;
+}
 
-
-
-
-
+.navLinksAfter:hover{
+    width:100%;
+}
 
 
 

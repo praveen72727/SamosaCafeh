@@ -23,3 +23,6 @@ hiddenElements.forEach((el)=> observer.observe(el));
 // lazy loading end
 
 
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});

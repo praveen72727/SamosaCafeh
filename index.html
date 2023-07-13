@@ -2,244 +2,288 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- custom style -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <!-- Bootstrap script -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <!-- Fontawesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- title -->
-    <title>SAMOSA Cafeh!</title>
-    <!-- favicon -->
-    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.png"> -->
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- custom style -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- title -->
+  <title>SAMOSA Cafeh!</title>
+  <!-- favicon -->
+  <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.png"> -->
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 
 <body>
-    <section class="body-section">
-        <section class="ribbon-section bg-tomato-red">
-            <div class="ribbon-div container py-2 d-flex justify-content-between">
-                <div class="left-div d-flex">
-                    <div class="mr-4">
-                        <i class="fa-solid fa-location-dot mr-1"></i>
-                        <span>4401 Sheppard Ave E, Scarborough, ON M1S 1T9</span>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-phone mr-1"></i>
-                        <span>+1 905-782-7665</span>
-                    </div>
-                </div>
-                <div class="right-right">
-                    <a href="" class="mr-2"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="" class="mr-2"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="" class="mr-2"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="" class="mr-2"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-        </section>
-        <section class="nav-section">
-            <div class="nav-div container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand text-white text-bold-600" href="#">
-                        <img src="images/samosa-logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                        SamosaCafeh
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-white" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Menu
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact Us</a>
-                          </li>
-                      </ul>
-                    </div>
-                  </nav>
-            </div>
-        </section>
-        <section class="slider-section">
-            <div class="slider-div">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="" data-interval="2000">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/slider-2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-            </div>
-        </section>
-        <section class="our-popular-food-items-section bg-white">
-          <div class="our-popular-food-items-div container py-5">
-            <div class="text-center mb-4 mt-4">
-              <h5 class="best-food-menu-heading text-tomato-red"><span class="text-tomato-red">----------</span> Best Food Menu <span class="text-tomato-red">----------</span></h5>
-              <h1 class="text-dark mt-3 mb-5 font-weight-bold">Our Popular Food Items</h1>
-            </div>
-            <div class="row mb-4">
-              <div class="col-md-3 col-sm-12">
-                <div class="each-div hidden py-4 rounded">
-                  <div class="img-div text-center p-3">
-                    <img class="rotate-food-item-img" src="images/plate_samosa.png" alt="" width="200" height="200">
-                  </div>
-                  <div class="d-flex flex-column text-center">
-                    <h4 class="text-black">Delicious Samosa</h4>
-                    <span class="text-dark-grey mb-1">Delicious Indian Samosa</span>
-                    <span class="text-tomato-red font-weight-bold">$39.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-12">
-                <div class="each-div hidden rounded py-4">
-                  <div class="img-div text-center p-3">
-                    <img class="rotate-food-item-img" src="images/plate_idly.png" alt="" width="200" height="200">
-                  </div>
-                  <div class="d-flex flex-column text-center">
-                    <h4 class="text-black">Delicious Idly</h4>
-                    <span class="text-dark-grey mb-1">Delicious Indian Idly</span>
-                    <span class="text-tomato-red font-weight-bold">$19.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-12">
-                <div class="each-div hidden rounded py-4">
-                  <div class="img-div text-center p-3">
-                    <img class="rotate-food-item-img" src="images/plate_vada.png" alt="" width="200">
-                  </div>
-                  <div class="d-flex flex-column text-center">
-                    <h4 class="text-black">Delicious Vada</h4>
-                    <span class="text-dark-grey mb-1">Delicious Indian Vada</span>
-                    <span class="text-tomato-red font-weight-bold">$29.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-12">
-                <div class="each-div hidden rounded py-4">
-                  <div class="img-div text-center p-3">
-                    <img class="rotate-food-item-img" src="images/plate_coffee.png" alt="" width="200">
-                  </div>
-                  <div class="d-flex flex-column text-center">
-                    <h4 class="text-black">Delicious Coffee</h4>
-                    <span class="text-dark-grey mb-1">Delicious Indian Coffee</span>
-                    <span class="text-tomato-red font-weight-bold">$59.00</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <section class="body-section">
+    <section class="ribbon-section bg-tomato-red">
+      <div class="ribbon-div container py-2 d-flex justify-content-between">
+        <div class="left-div d-flex">
+          <div class="me-4">
+            <i class="fa-solid fa-location-dot me-1"></i>
+            <span>4401 Sheppard Ave E, Scarborough, ON M1S 1T9</span>
           </div>
-        </section>
-        <section class="footer">
-          <div class="footer-div container py-5 mt-5">
-            <div class="row">
-              <div class="brand-info col-md-3 col-sm-12">
-                <h3>SamosaCafeh</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis molestie nunc.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="fa-solid fa-phone mr-3 font-25"></i>  
-                  <div>
-                    <h5>Hotline Order</h5>
-                    <h4>+1 905-782-7665</h4>
-                  </div>
-                </div>
-                <div>
-                  <a href="" class="mr-2"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="" class="mr-2"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="" class="mr-2"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="" class="mr-2"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-              </div>
-              <div class="locate-on-map-div col-md-3 col-sm-12">
-                <h4 class="mb-3">Locate Us</h4>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.3196531696244!2d-79.27205902455184!3d43.78697974376912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d173175cf9ad%3A0x9ab1114a428a35a3!2s4401%20Sheppard%20Ave%20E%2C%20Scarborough%2C%20ON%20M1S%201T9%2C%20Canada!5e0!3m2!1sen!2sin!4v1688882210894!5m2!1sen!2sin" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              <div class="contact-us-div col-md-3 col-sm-12">
-                <h4 class="mb-3">Contact Us</h4>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="fa-solid fa-phone mr-3"></i>
-                  <span>+1 905-782-7665</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="fa-solid fa-envelope mr-3"></i>
-                  <span>info@samosacafeh.com</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="fa-solid fa-location-dot mr-3"></i>
-                  <span>4401 Sheppard Ave E, Scarborough, ON M1S 1T9</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <i class="fa-solid fa-clock mr-3"></i>
-                  <span>MON - SAT : 8:00 AM - 8:00 PM</span>
-                </div>
-              </div>
-              <div class="quick-links-div col-md-3 col-sm-12 d-flex flex-column">
-                <h4>Quick Links</h4>
-                <a href="">About Us</a>
-                <a href="">Our Menu</a>
-                <a href="">Pricing Plan</a>
-                <a href="">How It Works</a>
-                <a href="">Contact Us</a>
-                <a href="">FAQ</a>
-                <a href="">Help</a>
-                <a href="">Careers</a>
-                <a href="">Terms of use</a>
-                <a href="">Privacy Policy</a>
-              </div>
-            </div>
+          <div>
+            <i class="fa-solid fa-phone me-1"></i>
+            <span>+1 905-782-7665</span>
           </div>
-          <div class="copyright-info-div container p-3 text-center">
-            <p>Copyright &#169; 2023 SamosaCafeh. All Rights Reserved.</p>
-          </div>
-        </section>
+        </div>
+        <div class="right-right">
+          <a href="" class="me-2"><i class="fa-brands fa-facebook"></i></a>
+          <a href="" class="me-2"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="me-2"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
     </section>
-    <script src="script.js"></script>
+    <section class="nav-section bg-black">
+      <div class="nav-div container">
+        <nav class="navbar navbar-expand-lg bg-black">
+          <div class="container-fluid ">
+            <a class="navbar-brand text-white fw-bold" href="#"><img src="images/samosa-logo.png" width="30" height="30" class="d-inline-block align-top" alt=""
+              loading="lazy">  SamosaCafeh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white navLinksAfter" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About Us</a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="slider-section">
+      <div class="slider-div">
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="" data-interval="2000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+              <div class="container bg-transparent position-absolute">
+                <h5 class="font-family-lobster text-tomato-red text-bold">Welcome To SamosaCafeh</h5>
+                <h1>ENJOY YOUR<br>FAVOURITE FOOD<br>WITH YOUR FAMILY</h1>
+                <div>
+                  <button class="btn btn-primary">About Us <i class="fa-solid fa-arrow-right"></i></button>
+                  <button class="btn btn-info">Our Menu <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </div>
+              <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <h1>there</h1>
+              <img src="images/slider-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> -->
+
+        <!-- ---- -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/slider-2.png" class="d-block w-100" alt="..." >
+            </div>
+            <div class="carousel-item">
+              <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="our-popular-food-items-section bg-white">
+      <div class="our-popular-food-items-div container py-5">
+        <div class="text-center mb-4 mt-4">
+          <h5 class="best-food-menu-heading text-tomato-red"><span class="text-tomato-red">----------</span> Best Food
+            Menu <span class="text-tomato-red">----------</span></h5>
+          <h1 class="text-dark mt-3 mb-5 font-weight-bold">Our Popular Food Items</h1>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-3 col-sm-12">
+            <div class="each-div hidden py-4 rounded">
+              <div class="img-div text-center p-3">
+                <img class="rotate-food-item-img" src="images/plate_samosa.png" alt="" width="200" height="200">
+              </div>
+              <div class="d-flex flex-column text-center">
+                <h4 class="text-black">Delicious Samosa</h4>
+                <span class="text-dark-grey mb-1">Delicious Indian Samosa</span>
+                <span class="text-tomato-red font-weight-bold">$39.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="each-div hidden rounded py-4">
+              <div class="img-div text-center p-3">
+                <img class="rotate-food-item-img" src="images/plate_idly.png" alt="" width="200" height="200">
+              </div>
+              <div class="d-flex flex-column text-center">
+                <h4 class="text-black">Delicious Idly</h4>
+                <span class="text-dark-grey mb-1">Delicious Indian Idly</span>
+                <span class="text-tomato-red font-weight-bold">$19.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="each-div hidden rounded py-4">
+              <div class="img-div text-center p-3">
+                <img class="rotate-food-item-img" src="images/plate_vada.png" alt="" width="200">
+              </div>
+              <div class="d-flex flex-column text-center">
+                <h4 class="text-black">Delicious Vada</h4>
+                <span class="text-dark-grey mb-1">Delicious Indian Vada</span>
+                <span class="text-tomato-red font-weight-bold">$29.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="each-div hidden rounded py-4">
+              <div class="img-div text-center p-3">
+                <img class="rotate-food-item-img" src="images/plate_coffee.png" alt="" width="200">
+              </div>
+              <div class="d-flex flex-column text-center">
+                <h4 class="text-black">Delicious Coffee</h4>
+                <span class="text-dark-grey mb-1">Delicious Indian Coffee</span>
+                <span class="text-tomato-red font-weight-bold">$59.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-div container py-5 mt-5">
+        <div class="row">
+          <div class="brand-info col-md-3 col-sm-12">
+            <div class="d-flex">
+              <img class="me-2" src="images/samosa-logo.png" width="30" height="30" class="d-inline-block align-top" alt=""
+              loading="lazy">
+            <h4 class="brand-title contactTtitlesAfter contactTtitlesAfterBrand mb-4">SamosaCafeh</h4>
+            </div>
+           
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis molestie nunc.</p>
+            <!-- <div class="d-flex align-items-center mb-2">
+              <i class="fa-solid fa-phone mr-3 font-25"></i>
+              <div>
+                <h5>Hotline Order</h5>
+                <h4>+1 905-782-7665</h4>
+              </div>
+            </div> -->
+            <div>
+              <a href="" class="me-2 contactSocialIconsBg rounded-circle"><i class="fa-brands fa-facebook"></i></a>
+              <a href="" class="me-2 contactSocialIconsBg rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+              <a href="" class="me-2 contactSocialIconsBg rounded-circle"><i class="fa-brands fa-instagram"></i></a>
+              <a href="" class="me-2 contactSocialIconsBg rounded-circle"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="locate-on-map-div col-md-3 col-sm-12">
+            <h4 class="mb-4 contactTtitlesAfter">Locate Us</h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.3196531696244!2d-79.27205902455184!3d43.78697974376912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d173175cf9ad%3A0x9ab1114a428a35a3!2s4401%20Sheppard%20Ave%20E%2C%20Scarborough%2C%20ON%20M1S%201T9%2C%20Canada!5e0!3m2!1sen!2sin!4v1688882210894!5m2!1sen!2sin"
+              width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="contact-us-div col-md-3 col-sm-12">
+            <h4 class="mb-4 contactTtitlesAfter">Contact Us</h4>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fa-solid fa-phone me-3 contactIconsBg rounded-circle"></i>
+              <span>+1 905-782-7665</span>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <i class="fa-solid fa-envelope me-3 contactIconsBg rounded-circle"></i>
+              <span>info@samosacafeh.com</span>
+            </div>
+            <div class="d-flex align-items-start mb-3">
+              <i class="fa-solid fa-location-dot me-3 contactIconsBg rounded-circle"></i>
+              <div class="d-flex flex-column">
+                <span>4401 Sheppard Ave E,</span>
+                <span>Scarborough, ON M1S 1T9</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-clock me-3 contactIconsBg rounded-circle"></i>
+              <span>MON - SAT : 8:00 AM - 8:00 PM</span>
+            </div>
+          </div>
+          <div class="quick-links-div col-md-3 col-sm-12 d-flex flex-column">
+            <h4 class="contactTtitlesAfter mb-3">Quick Links</h4>
+            <a href="">About Us</a>
+            <a href="">Our Menu</a>
+            <!-- <a href="">Pricing Plan</a> -->
+            <a href="">How It Works</a>
+            <!-- <a href="">Contact Us</a> -->
+            <a href="">FAQ</a>
+            <a href="">Help</a>
+            <a href="">Careers</a>
+            <a href="">Terms of use</a>
+            <a href="">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-info-div container p-3 text-center">
+        <p>Copyright &#169; 2023 SamosaCafeh. All Rights Reserved.</p>
+      </div>
+    </section>
+  </section>
+
+<script src="script.js"></script>
 </body>
 
 </html>
