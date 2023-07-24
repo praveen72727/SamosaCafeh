@@ -65,6 +65,23 @@ h1,h2,h3,h4,h5,h6,span,div,p,ol,ul,li{
 
 }
 
+/* .samosa-combos-tab-content{
+    display:none;
+} */
+.idly-vada-combos-tab-content{
+    display:none;
+}
+.rice-combos-tab-content{
+    display:none;
+}
+.snack-combos-tab-content{
+    display:none;
+}
+
+.samosa-combos-tab-p{
+    color:#eb0029;
+}
+
 /* .each-div .img-div img{
     border:1px solid black;
     border-radius: 100%;
